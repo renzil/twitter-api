@@ -11,10 +11,10 @@ Currently this implements a simple oauth authentication server to get user acces
 npm install
 ```
 
-2. Rename .env.template to .env
+2. Make a copy of .env.template as .env
 
 ```bash
-mv .env.template .env
+cp .env.template .env
 ```
 
 3. Add the consumer API and secret keys in the .env file. Add http://localhost:3000/redirect-twitter as the Callback URI / Redirect URL in your Twitter developer account.
