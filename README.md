@@ -17,7 +17,7 @@ npm install
 mv .env.template .env
 ```
 
-3. Add the consumer API and secret keys in the .env file. Add http://localhost:3000/twitter-redirect as the Callback URI / Redirect URL in your Twitter developer account.
+3. Add the consumer API and secret keys in the .env file. Add http://localhost:3000/redirect-twitter as the Callback URI / Redirect URL in your Twitter developer account.
 
 4. Start the node express server. Note that this is run using nodemon, so any changes to index.js will relaunch the server.
 
